@@ -34,6 +34,20 @@
     </div>
 
     <script>
+      $(function() {
+        setInterval(function () {
+          $("body").css("background-color", function () {
+            this.switch = !this.switch
+            return this.switch ? "#00feea" : "#ff0066"
+          });
+
+          $("h1").css("color", function () {
+            this.switch = !this.switch
+            return this.switch ? "#ff0066" : "#00feea"
+          });
+        }, 200);
+      })
+
       // Google Analytics
       // var _gaq = _gaq || [];
       // _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
