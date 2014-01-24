@@ -4,6 +4,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {
   /*background-color: #ff0066*/
   background-color: #00feea;
+
+  -webkit-transition: backgroundColor 0.3s ease-in-out;
+  -moz-transition:    backgroundColor 0.3s ease-in-out;
+  -ms-transition:     backgroundColor 0.3s ease-in-out;
+  transition:         backgroundColor 0.3s ease-in-out;
 }
 
 .container {
@@ -26,6 +31,11 @@ body {
 
     display: block;
     margin: 5% auto 5%;
+
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition:    color 0.3s ease-in-out;
+    -ms-transition:     color 0.3s ease-in-out;
+    transition:         color 0.3s ease-in-out;
   }
 
     .container h1 small {
